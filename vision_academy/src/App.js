@@ -1,22 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="/images/logo.png" alt="Vision Academy Logo" className="App-logo" />
+        <h1>Welcome to Vision Academy</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Your gateway to learning and innovation.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Explore our courses and resources to enhance your skills.
+        </p>
+        <div className="team-section">
+          <h2>Meet Our Team</h2>
+          <div className="team-members">
+            <div className="member">
+              <img src="/images/ceo.png" alt="CEO" />
+              <p>CEO</p>
+            </div>
+            <div className="member">
+              <img src="/images/coo.jpg" alt="COO" />
+              <p>COO</p>
+            </div>
+            <div className="member">
+              <img src="/images/pc-sir.png" alt="PC Sir" />
+              <p>PC Sir</p>
+            </div>
+            <div className="member">
+              <img src="/images/sonalika-das.png" alt="Sonalika Das" />
+              <p>Sonalika Das</p>
+            </div>
+            <div className="member">
+              <img src="/images/urmila.jpeg" alt="Urmila" />
+              <p>Urmila</p>
+            </div>
+          </div>
+        </div>
       </header>
     </div>
   );
